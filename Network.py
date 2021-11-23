@@ -32,7 +32,7 @@ class Network():
 
 
         # Weights ADD
-        self.WEIGHTS = []
+        self.WEIGHTS = [] # if weights.txt contain smth else gen random weights
         # from file
         try:
             with open('weights.txt', 'r') as w:
@@ -84,9 +84,9 @@ class Network():
         return self.WEIGHTS
 
     # save weights to weigth.txt 
-    def save_weights(self):
-        with open('weights.txt', 'w') as w:
-            w.write(str(self.WEIGHTS))
+    # def save_weights(self):
+    #     with open('weights.txt', 'w') as w:
+    #         w.write(str(self.WEIGHTS))
         
 
 

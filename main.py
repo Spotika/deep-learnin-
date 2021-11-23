@@ -2,7 +2,7 @@ import Network
 import numpy as np
 params = {
     'IN_DIM' : 4,
-    'HIDDEN_L' : [5],
+    'HIDDEN_L' : [4],
     'OUT_DIM' : 3,
 }
 
